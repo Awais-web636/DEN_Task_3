@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimized Web Performance</title>
+    <!-- Minified CSS -->
+    <link rel="stylesheet" href="styles.min.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Optimized Website</h1>
+        <p>Experience fast loading and smooth interaction.</p>
+    </header>
+
+    <!-- Lazy loading images -->
+    <section>
+        <img src="images/img-1.png" alt="Lazy Loaded Image 1" loading="lazy" width="600" height="400">
+        <img src="images/img-2.png" alt="Lazy Loaded Image 2" loading="lazy" width="600" height="400">
+    </section>
+
+    <!-- Button Interaction -->
+    <section>
+        <button id="showAlert">Click Me</button>
+    </section>
+
+    <!-- Google Analytics Integration -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXX-X"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-XXXXXX-X');
+    </script>
+
+    <!-- Minified JS (Deferred for faster loading) -->
+    <script defer src="scripts.min.js"></script>
+</body>
+</html>

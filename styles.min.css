@@ -1,0 +1,54 @@
+/* Minified CSS for Optimized Web Performance */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    color: #333
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px
+}
+
+section {
+    padding: 20px;
+    text-align: center
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease
+}
+
+button:hover {
+    background-color: #0056b3
+}
